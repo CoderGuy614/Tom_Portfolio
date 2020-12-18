@@ -83,10 +83,10 @@ class PhotoSwipeComponent extends React.Component {
         <main className="layout-main">
           <div className="container">
             <h2>PhotoSwipe</h2>
-            <hr />
-            <button className="btn btn-primary" onClick={this.openPhotoSwipe}>
+
+            {/* <button className="btn btn-primary" onClick={this.openPhotoSwipe}>
               Click me
-            </button>
+            </button> */}
             <PhotoSwipe
               isOpen={this.state.isOpen}
               items={this.state.items}

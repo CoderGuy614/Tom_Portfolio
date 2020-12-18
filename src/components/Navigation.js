@@ -24,7 +24,7 @@ const Navigation = () => {
           className="nav-items"
         >
           <Nav.Link as={Link} eventKey="/about">
-            <Link className="nav-link" to="/about">
+            <Link className="nav-link text-white" to="/about">
               ABOUT
             </Link>
           </Nav.Link>

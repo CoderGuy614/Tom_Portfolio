@@ -1,7 +1,7 @@
 import React from "react";
 
 const Corporate = () => {
-  return <div>Corporate Page</div>;
+  return <h3>Corporate Page</h3>;
 };
 
 export default Corporate;

@@ -2,10 +2,21 @@
   font-family: "Open Sans Condensed", sans-serif;
 }
 
+nav.navbar {
+  padding: 0px 16px !important;
+}
+
 .nav-branding {
   font-size: 60px;
 }
 
 .nav-items {
   margin-top: 75px;
+  background-color: #a69a95 !important;
+  margin-bottom: 0px;
+}
+
+.nav-link {
+  background: "#a69a95" !important;
+  color: white !important;
 }
