@@ -8,6 +8,7 @@ import Navigation from "./components/Navigation";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import "./styles/global.css";
+import "react-photoswipe/lib/photoswipe.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
