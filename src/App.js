@@ -19,19 +19,13 @@ const App = () => {
     <BrowserRouter>
       <Navigation />
       <Switch>
-        <Container
-          fluid
-          className="d-flex justify-content-center"
-          style={{ backgroundColor: "#a69a95" }}
-        >
-          <Route exact path="/about" component={About} />
-          <Route exact path="/people" component={People} />
-          <Route exact path="/places" component={Places} />
-          <Route exact path="/corporate" component={Corporate} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/photoswipe" component={PhotoSwipePage} />
-          <Route exact path="/" component={Home} />
-        </Container>
+        <Route exact path="/about" component={About} />
+        <Route exact path="/people" component={People} />
+        <Route exact path="/places" component={Places} />
+        <Route exact path="/corporate" component={Corporate} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/photoswipe" component={PhotoSwipePage} />
+        <Route exact path="/" component={Home} />
       </Switch>
       <Footer />
     </BrowserRouter>

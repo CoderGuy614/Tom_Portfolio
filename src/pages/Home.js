@@ -8,23 +8,25 @@ import home3 from "../assets/home3.png";
 
 const Home = () => {
   return (
-    <div>
-      <Row>
-        <Col md={9}>
-          <Image src={home1} />
-        </Col>
-        <Col
-          md={3}
-          className="d-none d-md-flex flex-column justify-content-between"
-        >
-          <Row>
-            <Image fluid src={home2} />
-          </Row>
-          <Row>
-            <Image fluid src={home3} />
-          </Row>
-        </Col>
-      </Row>
+    <div className="home-container">
+      <div className="image-container">
+        <Row className="home-row">
+          <Col md={8} className="d-flex justify-content-center">
+            <Image fluid src={home1} className="w-100" />
+          </Col>
+          <Col
+            md={4}
+            className="d-none d-md-flex flex-column justify-content-between"
+          >
+            <Row>
+              <Image src={home2} className="w-100 mb-2" fluid />
+            </Row>
+            <Row>
+              <Image src={home3} className="w-100 mt-2" fluid />
+            </Row>
+          </Col>
+        </Row>
+      </div>
     </div>
   );
 };

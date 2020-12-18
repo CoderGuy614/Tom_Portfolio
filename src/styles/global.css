@@ -1,22 +1,77 @@
 * {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "FuturaStd-CondensedLight", sans-serif;
 }
 
-nav.navbar {
-  padding: 0px 16px !important;
+.page-container {
+  overflow: hidden;
 }
 
 .nav-branding {
-  font-size: 60px;
+  font-family: "BodegaSans-Light", sans-serif;
+}
+
+@font-face {
+  font-family: FuturaStd-CondensedLight;
+  src: local("FuturaStd-CondensedLight"),
+    url("../fonts/FuturaStd-CondensedLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: BodegaSans-Light;
+  src: local("BodegaSans-Light"),
+    url("../fonts/BodegaSans-Light.ttf") format("truetype");
+}
+
+nav.navbar {
+  padding: 0px !important;
+  margin-top: 0px !important;
 }
 
 .nav-items {
-  margin-top: 75px;
+  margin-top: 110px;
   background-color: #a69a95 !important;
-  margin-bottom: 0px;
+  width: 100%;
 }
 
-.nav-link {
+a.nav-link {
   background: "#a69a95" !important;
   color: white !important;
+}
+
+.nav-link.active {
+  color: black !important;
+}
+
+.title-image {
+  width: 400px;
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.sidebar-images {
+  margin-top: 25px;
+  padding-bottom: 20px;
+}
+
+.home-row {
+  width: 100%;
+}
+
+.home-container {
+  background-color: #a69a95;
+  height: calc(100vh - 200px);
+  overflow: auto;
+}
+
+.image-container {
+  margin: 20px 20px 20px 50px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  max-height: 75px;
+  line-height: 50px;
+  text-align: center;
 }
