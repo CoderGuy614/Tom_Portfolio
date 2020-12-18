@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
+  const [active, setActive] = useState("/");
+  useEffect(() => {
+    setActive(window.location.pathname);
+  }, [active]);
   return (
     <Navbar bg="light" expand="md">
-      <Navbar.Brand href="/">
+      <Navbar.Brand as={Link} to="/" onClick={() => setActive("/")}>
         <h1 className="nav-branding">
           <span style={{ color: "#a69a95" }}>TOM</span>DUBANOWICH
         </h1>
@@ -14,25 +19,35 @@ const Navigation = () => {
 
       <Navbar.Collapse id="basic-navbar">
         <Nav
-          activeKey="/home"
-          //   onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+          activeKey={active}
+          onSelect={(selectedKey) => setActive(selectedKey)}
           className="nav-items"
         >
-          <Nav.Item>
-            <Nav.Link href="/home">ABOUT</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/people">PEOPLE</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="places">PLACES</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="corporate">CORPORATE</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="contact">CONTACT</Nav.Link>
-          </Nav.Item>
+          <Nav.Link as={Link} eventKey="/about">
+            <Link className="nav-link" to="/about">
+              ABOUT
+            </Link>
+          </Nav.Link>
+          <Nav.Link as={Link} eventKey="/people">
+            <Link className="nav-link" to="/people">
+              PEOPLE
+            </Link>
+          </Nav.Link>
+          <Nav.Link as={Link} eventKey="/places">
+            <Link className="nav-link" to="/places">
+              PLACES
+            </Link>
+          </Nav.Link>
+          <Nav.Link as={Link} eventKey="/corporate">
+            <Link className="nav-link" to="/corporate">
+              CORPORATE
+            </Link>
+          </Nav.Link>
+          <Nav.Link as={Link} eventKey="/contact">
+            <Link className="nav-link" to="/contact">
+              CONTACT
+            </Link>
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

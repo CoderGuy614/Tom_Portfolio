@@ -3,11 +3,7 @@ import { Container, Row, Navbar } from "react-bootstrap";
 import Navigation from "../components/Navigation";
 
 const Home = () => {
-  return (
-    <>
-      <Navigation />
-    </>
-  );
+  return <>Home Page</>;
 };
 
 export default Home;
