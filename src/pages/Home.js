@@ -1,12 +1,18 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Navigation from "../components/Navigation";
-import PhotoSwipeComponent from "../components/PhotoSwipeComponent";
+import GalleryThumbnail from "../components/GalleryThumbnail";
 import home1 from "../assets/home1.png";
 import home2 from "../assets/home2.png";
 import home3 from "../assets/home3.png";
 
 const Home = () => {
+  const categories = [
+    "industrial",
+    "institutions",
+    "location",
+    "personal",
+    "portraits",
+  ];
   return (
     <div className="home-container">
       <div className="image-container">
@@ -25,6 +31,17 @@ const Home = () => {
               <Image src={home3} className="w-100 mt-2" fluid />
             </Row>
           </Col>
+        </Row>
+        <Row className="d-md-none d-block">
+          <hr className="my-4" />
+          <h3 className="text-center text-white my-2">Web Galleries</h3>
+        </Row>
+        <Row className="d-flex d-md-none justify-content-between">
+          {categories.map((cat) => (
+            <Col className="mt-4 text-center">
+              <GalleryThumbnail category={cat} />
+            </Col>
+          ))}
         </Row>
       </div>
     </div>
