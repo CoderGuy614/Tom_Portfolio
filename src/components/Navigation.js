@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 import title from "../assets/LogoSmall.png";
 
 const Navigation = () => {
-  const [active, setActive] = useState("/");
+  const [activeTab, setActiveTab] = useState("/");
+
   useEffect(() => {
-    setActive(window.location.pathname);
-  }, [active]);
+    setActiveTab(window.location.pathname);
+  }, [activeTab]);
   return (
     <Navbar expand="md">
-      <Navbar.Brand as={Link} to="/" onClick={() => setActive("/")}>
+      <Navbar.Brand as={Link} to="/" onClick={() => setActiveTab("/")}>
         <Image src={title} className="title-image" />
       </Navbar.Brand>
 
@@ -62,8 +63,8 @@ const Navigation = () => {
 
       <Navbar.Collapse id="basic-navbar">
         <Nav
-          activeKey={active}
-          onSelect={(selectedKey) => setActive(selectedKey)}
+          activeKey={activeTab}
+          onSelect={(selectedKey) => setActiveTab(selectedKey)}
           className="nav-items px-4"
         >
           <Nav.Item>
@@ -77,20 +78,52 @@ const Navigation = () => {
             </Nav.Link>
           </Nav.Item>
 
-          <NavDropdown title="Galleries" id="basic-nav-dropdown">
-            <NavDropdown.Item as={Link} to="/industrial">
+          <NavDropdown
+            active={
+              activeTab == "/institutions" ||
+              activeTab == "/industrial" ||
+              activeTab == "/location" ||
+              activeTab == "/personal" ||
+              activeTab == "/portraits"
+                ? true
+                : false
+            }
+            title="Galleries"
+            id="basic-nav-dropdown"
+          >
+            <NavDropdown.Item
+              as={Link}
+              to="/industrial"
+              onClick={() => setActiveTab("/industrial")}
+            >
               Industrial
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/institutions">
+            <NavDropdown.Item
+              as={Link}
+              to="/institutions"
+              onClick={() => setActiveTab("/institutions")}
+            >
               Institutions
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/location">
+            <NavDropdown.Item
+              as={Link}
+              to="/location"
+              onClick={() => setActiveTab("/location")}
+            >
               Location
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/personal">
+            <NavDropdown.Item
+              as={Link}
+              to="/personal"
+              onClick={() => setActiveTab("/personal")}
+            >
               Personal
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/portraits">
+            <NavDropdown.Item
+              as={Link}
+              to="/portraits"
+              onClick={() => setActiveTab("/portraits")}
+            >
               Portraits
             </NavDropdown.Item>
           </NavDropdown>

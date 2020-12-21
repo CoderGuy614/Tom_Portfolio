@@ -54,7 +54,7 @@ const Institutions = () => {
   ];
   return (
     <div className="gallery-container">
-      <h1 className="text-center">Institutions</h1>
+      <h1 className="text-center text-white">Institutions</h1>
       <ImageGallery items={images} />
     </div>
   );
