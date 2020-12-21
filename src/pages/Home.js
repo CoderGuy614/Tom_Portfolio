@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 import GalleryThumbnail from "../components/GalleryThumbnail";
 import home1 from "../assets/home1.png";
 import home2 from "../assets/home2.png";

@@ -1,11 +1,12 @@
 import React from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import People from "./pages/People";
-import Places from "./pages/Places";
-import Corporate from "./pages/Corporate";
+import Institutions from "./pages/Institutions";
+import Location from "./pages/Location";
+import Industrial from "./pages/Industrial";
 import Contact from "./pages/Contact";
 import Personal from "./pages/Personal";
+import Portrait from "./pages/Portrait";
 import Gallery from "./pages/Gallery";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
@@ -22,10 +23,11 @@ const App = () => {
       <Navigation />
       <Switch>
         <Route exact path="/about" component={About} />
-        <Route exact path="/people" component={People} />
-        <Route exact path="/places" component={Places} />
-        <Route exact path="/corporate" component={Corporate} />
+        <Route exact path="/institutions" component={Institutions} />
+        <Route exact path="/location" component={Location} />
+        <Route exact path="/industrial" component={Industrial} />
         <Route exact path="/personal" component={Personal} />
+        <Route exact path="/portraits" component={Portrait} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/photoswipe" component={PhotoSwipePage} />
         <Route exact path="/gallery" component={Gallery} />

@@ -9,7 +9,7 @@ import testpic6 from "../assets/testpic6.jpg";
 import testpic7 from "../assets/testpic7.jpg";
 import testpic8 from "../assets/testpic8.jpg";
 
-const Personal = () => {
+const Location = () => {
   const images = [
     {
       original: testpic1,
@@ -46,10 +46,10 @@ const Personal = () => {
   ];
   return (
     <div className="gallery-container">
-      <h1 className="text-center text-white">Personal</h1>
+      <h1 className="text-center text-white">Location</h1>
       <ImageGallery items={images} originalClass="original-class" />
     </div>
   );
 };
 
-export default Personal;
+export default Location;

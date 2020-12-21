@@ -32,12 +32,12 @@ nav.navbar {
   /* padding-left: 10px !important;
   padding-right: 60px; */
 
-  background-color: #a69a95 !important;
+  background-color: rgb(169, 157, 149) !important;
   width: 100%;
 }
 
 a.nav-link {
-  background: "#a69a95" !important;
+  background: rgb(169, 157, 149) !important;
   color: white !important;
   margin: 0px 10px 0px 10px;
 }
@@ -62,7 +62,7 @@ a.nav-link {
 }
 
 .home-container {
-  background-color: #a69a95;
+  background-color: rgb(169, 157, 149);
   height: calc(100vh - 200px);
   overflow: auto;
 }
@@ -88,4 +88,16 @@ a.nav-link {
   max-height: 75px;
   line-height: 50px;
   text-align: center;
+}
+
+.gallery-container {
+  background-color: rgb(169, 157, 149);
+}
+
+.about-container {
+  background-color: rgb(169, 157, 149);
+}
+
+.contact-container {
+  background-color: rgb(169, 157, 149);
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
 
-const Places = () => {
+const Institutions = () => {
   const images = [
     {
       original: "https://loremflickr.com/1000/600/places",
@@ -53,11 +53,11 @@ const Places = () => {
     },
   ];
   return (
-    <>
-      <h1 className="text-center my-3">Places</h1>
+    <div className="gallery-container">
+      <h1 className="text-center">Institutions</h1>
       <ImageGallery items={images} />
-    </>
+    </div>
   );
 };
 
-export default Places;
+export default Institutions;
