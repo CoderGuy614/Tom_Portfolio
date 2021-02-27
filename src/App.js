@@ -26,23 +26,28 @@ const App = () => {
     <BrowserRouter>
       <Navigation />
       <Switch>
-        <Route path="/about" component={About} />
+        <Route exact path="/about" component={About} />
 
-        <Route path="/location-cool-places" component={LocationCoolPlaces} />
-        <Route path="/location-learn" component={LocationLearn} />
-        <Route path="/location-live" component={LocationLive} />
-        <Route path="/location-work" component={LocationWork} />
-        <Route path="/photoshop" component={Photoshop} />
         <Route
+          exact
+          path="/location-cool-places"
+          component={LocationCoolPlaces}
+        />
+        <Route exact path="/location-learn" component={LocationLearn} />
+        <Route exact path="/location-live" component={LocationLive} />
+        <Route exact path="/location-work" component={LocationWork} />
+        <Route exact path="/photoshop" component={Photoshop} />
+        <Route
+          exact
           path="/portraits-environmental"
           component={PortraitsEnvironmental}
         />
-        <Route path="/portraits-studio" component={PortraitsStudio} />
-        <Route path="/personal" component={Personal} />
+        <Route exact path="/portraits-studio" component={PortraitsStudio} />
+        <Route exact path="/personal" component={Personal} />
 
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/contact" component={Contact} />
 
-        <Route path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
       </Switch>
       <Footer />
     </BrowserRouter>

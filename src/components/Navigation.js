@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 import title from "../assets/LogoSmall.png";
 
 const Navigation = () => {
-  const [activeTab, setActiveTab] = useState("/");
+  const [activeTab, setActiveTab] = useState("/home");
 
   useEffect(() => {
     setActiveTab(window.location.pathname);
   }, [activeTab]);
   return (
     <Navbar expand="md">
-      <Navbar.Brand as={Link} to="/" onClick={() => setActiveTab("/")}>
+      <Navbar.Brand as={Link} to="/home" onClick={() => setActiveTab("/")}>
         <Image src={title} className="title-image" />
       </Navbar.Brand>
 
