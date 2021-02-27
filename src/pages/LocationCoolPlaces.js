@@ -19,7 +19,7 @@ import pic16 from "../assets/gallery-photos/location-cool-places/Location-Cool-P
 import pic17 from "../assets/gallery-photos/location-cool-places/Location-Cool-Places-017.jpg";
 import pic18 from "../assets/gallery-photos/location-cool-places/Location-Cool-Places-018.jpg";
 
-const Industrial = () => {
+const LocationCoolPlaces = () => {
   const images = [
     {
       original: pic1,
@@ -96,10 +96,10 @@ const Industrial = () => {
   ];
   return (
     <div className="gallery-container">
-      <h1 className="text-center text-white">Industrial</h1>
+      <h1 className="text-center text-white pt-2">Location - Cool Places</h1>
       <ImageGallery items={images} />
     </div>
   );
 };
 
-export default Industrial;
+export default LocationCoolPlaces;

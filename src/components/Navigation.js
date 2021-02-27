@@ -16,51 +16,6 @@ const Navigation = () => {
       </Navbar.Brand>
 
       <Navbar.Toggle aria-controls="basic-navbar" className="m-2" />
-
-      {/* <Navbar.Collapse id="basic-navbar">
-        <Nav
-          activeKey={active}
-          onSelect={(selectedKey) => setActive(selectedKey)}
-          className="nav-items justify-content-between"
-        >
-          <Nav.Item>
-            <Nav.Link as={Link} to="/about" eventKey="/about">
-              About
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as={Link} to="/contact" eventKey="/contact">
-              Contact
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as={Link} to="/industrial" eventKey="/industrial">
-              Industrial
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as={Link} to="/institutions" eventKey="/institutions">
-              Institutions
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as={Link} to="/location" eventKey="/location">
-              Location
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as={Link} to="/personal" eventKey="/personal">
-              Personal
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as={Link} to="/portraits" eventKey="/portraits">
-              Portraits
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
-      </Navbar.Collapse> */}
-
       <Navbar.Collapse id="basic-navbar">
         <Nav
           activeKey={activeTab}
@@ -80,38 +35,70 @@ const Navigation = () => {
 
           <NavDropdown
             active={
-              activeTab == "/institutions" ||
-              activeTab == "/industrial" ||
-              activeTab == "/location" ||
-              activeTab == "/personal" ||
-              activeTab == "/portraits"
+              activeTab === "/location-cool-places" ||
+              activeTab === "/location-learn" ||
+              activeTab === "/location-live" ||
+              activeTab === "/location-work" ||
+              activeTab === "/personal" ||
+              activeTab === "/photoshop" ||
+              activeTab === "/portraits-environmental" ||
+              activeTab === "/portraits-studio"
                 ? true
                 : false
             }
             title="Galleries"
             id="basic-nav-dropdown"
           >
+            <NavDropdown.Header>Location</NavDropdown.Header>
+            {/* <h6 className="text-center p-2">Locations</h6> */}
+
             <NavDropdown.Item
               as={Link}
-              to="/industrial"
-              onClick={() => setActiveTab("/industrial")}
+              to="/location-cool-places"
+              onClick={() => setActiveTab("/location-cool-places")}
             >
-              Industrial
+              Cool Places
             </NavDropdown.Item>
             <NavDropdown.Item
               as={Link}
-              to="/institutions"
-              onClick={() => setActiveTab("/institutions")}
+              to="/location-learn"
+              onClick={() => setActiveTab("/location-learn")}
             >
-              Institutions
+              Learn
             </NavDropdown.Item>
             <NavDropdown.Item
               as={Link}
-              to="/location"
-              onClick={() => setActiveTab("/location")}
+              to="/location-live"
+              onClick={() => setActiveTab("/location-live")}
             >
-              Location
+              Live
             </NavDropdown.Item>
+            <NavDropdown.Item
+              as={Link}
+              to="/location-work"
+              onClick={() => setActiveTab("/location-work")}
+            >
+              Work
+            </NavDropdown.Item>
+            <NavDropdown.Divider></NavDropdown.Divider>
+            {/* <h6 className="text-center p-2">Portraits</h6> */}
+            <NavDropdown.Header>Portraits</NavDropdown.Header>
+
+            <NavDropdown.Item
+              as={Link}
+              to="/portraits-environmental"
+              onClick={() => setActiveTab("/portraits-environmental")}
+            >
+              Environmental
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              as={Link}
+              to="/portraits-studio"
+              onClick={() => setActiveTab("/portraits-studio")}
+            >
+              Studio
+            </NavDropdown.Item>
+            <NavDropdown.Divider></NavDropdown.Divider>
             <NavDropdown.Item
               as={Link}
               to="/personal"
@@ -119,12 +106,13 @@ const Navigation = () => {
             >
               Personal
             </NavDropdown.Item>
+            <NavDropdown.Divider></NavDropdown.Divider>
             <NavDropdown.Item
               as={Link}
-              to="/portraits"
-              onClick={() => setActiveTab("/portraits")}
+              to="/photoshop"
+              onClick={() => setActiveTab("/photoshop")}
             >
-              Portraits
+              Photoshop
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>
