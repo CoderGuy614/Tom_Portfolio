@@ -1,0 +1,101 @@
+* {
+  font-family: "FuturaStd-CondensedLight", sans-serif;
+}
+
+.page-container {
+  overflow: hidden;
+}
+
+.nav-branding {
+  font-family: "BodegaSans-Light", sans-serif;
+}
+
+@font-face {
+  font-family: FuturaStd-CondensedLight;
+  src: local("FuturaStd-CondensedLight"),
+    url("../fonts/FuturaStd-CondensedLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: BodegaSans-Light;
+  src: local("BodegaSans-Light"),
+    url("../fonts/BodegaSans-Light.ttf") format("truetype");
+}
+
+nav.navbar {
+  padding: 0px !important;
+  /* margin-top: 0px !important; */
+}
+
+.nav-items {
+  margin-top: 110px;
+  /* padding-left: 10px !important;
+  padding-right: 60px; */
+
+  background-color: rgb(169, 157, 149) !important;
+  width: 100%;
+}
+
+a.nav-link {
+  background: rgb(169, 157, 149) !important;
+  color: white !important;
+  margin: 0px 10px 0px 10px;
+}
+
+.nav-link.active {
+  color: black !important;
+}
+
+.title-image {
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.sidebar-images {
+  margin-top: 25px;
+  padding-bottom: 20px;
+}
+
+.home-row {
+  width: 100%;
+}
+
+.thumb-container {
+  width: 110px;
+}
+
+.home-container {
+  background-color: rgb(169, 157, 149);
+  height: calc(100vh - 200px);
+  overflow: auto;
+}
+
+.image-container {
+  margin: 20px 20px 20px 50px;
+}
+
+.gallery-thumb-links {
+  text-decoration: none !important;
+  transition: 1s;
+}
+
+.gallery-thumb-links:hover {
+  text-decoration: none !important;
+  color: rgb(205, 32, 30) !important;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  max-height: 75px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.gallery-container,
+.gallery-container,
+.contact-container {
+  background-color: rgb(169, 157, 149);
+}
