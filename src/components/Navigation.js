@@ -3,12 +3,12 @@ import { Navbar, Nav, Image, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import title from "../assets/LogoSmall.png";
 
-const Navigation = () => {
+const Navigation = ({ updateActive }) => {
   const [activeTab, setActiveTab] = useState("/");
 
   useEffect(() => {
     setActiveTab(window.location.pathname);
-  }, [activeTab]);
+  }, [activeTab, updateActive]);
   return (
     <Navbar expand="md">
       <Navbar.Brand

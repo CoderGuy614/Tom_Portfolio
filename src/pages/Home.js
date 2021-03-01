@@ -5,7 +5,7 @@ import home1 from "../assets/home1.png";
 import home2 from "../assets/home2.png";
 import home3 from "../assets/home3.png";
 import { galleries } from "../GalleryData";
-const Home = () => {
+const Home = ({ setUpdateActive, updateActive }) => {
   return (
     <div className="home-container">
       <div className="image-container">
@@ -25,7 +25,11 @@ const Home = () => {
             </Row>
           </Col>
         </Row>
-        <GalleryList galleries={galleries} responsive={true} />
+        <GalleryList
+          galleries={galleries}
+          setUpdateActive={setUpdateActive}
+          updateActive={updateActive}
+        />
       </div>
     </div>
   );

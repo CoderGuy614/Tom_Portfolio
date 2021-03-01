@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 
@@ -22,9 +22,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const App = () => {
+  const [updateActive, setUpdateActive] = useState(false);
+
   return (
     <BrowserRouter>
-      <Navigation />
+      <Navigation updateActive={updateActive} />
       <Switch>
         <Route exact path="/about" component={About} />
 
@@ -47,7 +49,16 @@ const App = () => {
         <Route exact path="/personal" component={Personal} />
         <Route exact path="/contact" component={Contact} />
 
-        <Route exact path="/home" component={Home} />
+        <Route
+          exact
+          path="/home"
+          render={() => (
+            <Home
+              setUpdateActive={setUpdateActive}
+              updateActive={updateActive}
+            />
+          )}
+        />
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
