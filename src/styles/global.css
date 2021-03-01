@@ -29,8 +29,6 @@ nav.navbar {
 
 .nav-items {
   margin-top: 110px;
-  /* padding-left: 10px !important;
-  padding-right: 60px; */
 
   background-color: rgb(169, 157, 149) !important;
   width: 100%;
@@ -44,6 +42,14 @@ a.nav-link {
 
 .nav-link.active {
   color: black !important;
+}
+
+.about-text {
+  line-height: 1.8;
+}
+
+.dropdown-item.active {
+  background-color: rgb(205, 32, 30) !important;
 }
 
 .title-image {
@@ -96,6 +102,12 @@ a.nav-link {
 
 .gallery-container,
 .gallery-container,
-.contact-container {
+.contact-container,
+.about-container,
+.gallery-list-container {
   background-color: rgb(169, 157, 149);
+}
+
+.image-gallery-svg {
+  height: 60px !important;
 }

@@ -15,7 +15,7 @@ import Contact from "./pages/Contact";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import "./styles/global.css";
 import "react-photoswipe/lib/photoswipe.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -42,12 +42,15 @@ const App = () => {
           path="/portraits-environmental"
           component={PortraitsEnvironmental}
         />
+
         <Route exact path="/portraits-studio" component={PortraitsStudio} />
         <Route exact path="/personal" component={Personal} />
-
         <Route exact path="/contact" component={Contact} />
 
-        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/">
+          <Redirect to="/home" />
+        </Route>
       </Switch>
       <Footer />
     </BrowserRouter>
