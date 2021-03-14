@@ -34,16 +34,41 @@ const LocationWork = () => {
       thumbnail: pic2,
     },
     {
+      original: pic20,
+      thumbnail: pic20,
+    },
+    {
+      original: pic21,
+      thumbnail: pic21,
+    },
+    {
+      original: pic22,
+      thumbnail: pic22,
+    },
+
+    {
       original: pic3,
       thumbnail: pic3,
     },
     {
-      original: pic4,
-      thumbnail: pic4,
+      original: pic15,
+      thumbnail: pic15,
     },
+    // {
+    //   original: pic4,
+    //   thumbnail: pic4,
+    // },
     {
       original: pic5,
       thumbnail: pic5,
+    },
+    {
+      original: pic16,
+      thumbnail: pic16,
+    },
+    {
+      original: pic17,
+      thumbnail: pic17,
     },
     {
       original: pic6,
@@ -52,6 +77,14 @@ const LocationWork = () => {
     {
       original: pic7,
       thumbnail: pic7,
+    },
+    {
+      original: pic13,
+      thumbnail: pic13,
+    },
+    {
+      original: pic14,
+      thumbnail: pic14,
     },
     {
       original: pic8,
@@ -74,44 +107,12 @@ const LocationWork = () => {
       thumbnail: pic12,
     },
     {
-      original: pic13,
-      thumbnail: pic13,
-    },
-    {
-      original: pic14,
-      thumbnail: pic14,
-    },
-    {
-      original: pic15,
-      thumbnail: pic15,
-    },
-    {
-      original: pic16,
-      thumbnail: pic16,
-    },
-    {
-      original: pic17,
-      thumbnail: pic17,
-    },
-    {
       original: pic18,
       thumbnail: pic18,
     },
     {
       original: pic19,
       thumbnail: pic19,
-    },
-    {
-      original: pic20,
-      thumbnail: pic20,
-    },
-    {
-      original: pic21,
-      thumbnail: pic21,
-    },
-    {
-      original: pic22,
-      thumbnail: pic22,
     },
   ];
   return (

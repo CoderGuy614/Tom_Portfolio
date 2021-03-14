@@ -22,10 +22,10 @@ import pic19 from "../assets/gallery-photos/location-live/Location-Live-019.jpg"
 
 const LocationLive = () => {
   const images = [
-    {
-      original: pic1,
-      thumbnail: pic1,
-    },
+    // {
+    //   original: pic1,
+    //   thumbnail: pic1,
+    // },
     {
       original: pic2,
       thumbnail: pic2,

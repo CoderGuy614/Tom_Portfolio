@@ -79,10 +79,10 @@ const Personal = () => {
       original: pic13,
       thumbnail: pic13,
     },
-    {
-      original: pic14,
-      thumbnail: pic14,
-    },
+    // {
+    //   original: pic14,
+    //   thumbnail: pic14,
+    // },
     {
       original: pic15,
       thumbnail: pic15,

@@ -9,12 +9,6 @@ import thumb8 from "./assets/gallery-photos/thumbs/portraits-studio-thumb.jpg";
 
 export const galleries = [
   {
-    url: "location-cool-places",
-    category: "Location",
-    subCategory: "Cool Places",
-    thumb: thumb1,
-  },
-  {
     url: "location-learn",
     category: "Location",
     subCategory: "Learn",
@@ -31,6 +25,12 @@ export const galleries = [
     category: "Location",
     subCategory: "Work",
     thumb: thumb4,
+  },
+  {
+    url: "location-cool-places",
+    category: "Location",
+    subCategory: "Cool Places",
+    thumb: thumb1,
   },
   { url: "personal", category: "Personal", subCategory: "", thumb: thumb5 },
   { url: "photoshop", category: "Photoshop", subCategory: "", thumb: thumb6 },

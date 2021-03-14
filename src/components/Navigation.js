@@ -70,13 +70,6 @@ const Navigation = ({ updateActive }) => {
 
             <NavDropdown.Item
               as={NavLink}
-              to="/location-cool-places"
-              onClick={() => setActiveTab("/location-cool-places")}
-            >
-              Cool Places
-            </NavDropdown.Item>
-            <NavDropdown.Item
-              as={NavLink}
               to="/location-learn"
               onClick={() => setActiveTab("/location-learn")}
             >
@@ -96,6 +89,13 @@ const Navigation = ({ updateActive }) => {
             >
               Work
             </NavDropdown.Item>
+            <NavDropdown.Item
+              as={NavLink}
+              to="/location-cool-places"
+              onClick={() => setActiveTab("/location-cool-places")}
+            >
+              Cool Places
+            </NavDropdown.Item>
             <NavDropdown.Divider></NavDropdown.Divider>
 
             <NavDropdown.Header>Portraits</NavDropdown.Header>
@@ -114,16 +114,20 @@ const Navigation = ({ updateActive }) => {
             >
               Studio
             </NavDropdown.Item>
+
             <NavDropdown.Divider></NavDropdown.Divider>
             <NavDropdown.Item
+              className="dropdown-header activeWhite"
               as={NavLink}
               to="/personal"
               onClick={() => setActiveTab("/personal")}
             >
               Personal
             </NavDropdown.Item>
+
             <NavDropdown.Divider></NavDropdown.Divider>
             <NavDropdown.Item
+              className="dropdown-header activeWhite"
               as={NavLink}
               to="/photoshop"
               onClick={() => setActiveTab("/photoshop")}

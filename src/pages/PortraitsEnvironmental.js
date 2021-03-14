@@ -31,20 +31,37 @@ import pic28 from "../assets/gallery-photos/portraits-environmental/Portraits-En
 import pic29 from "../assets/gallery-photos/portraits-environmental/Portraits-Environmental_1-14-21_029.jpg";
 import pic30 from "../assets/gallery-photos/portraits-environmental/Portraits-Environmental_1-14-21_030.jpg";
 import pic31 from "../assets/gallery-photos/portraits-environmental/Portraits-Environmental_1-14-21_031.jpg";
+import pic32 from "../assets/gallery-photos/location-work/Location-Work-004.jpg";
 
 const PortraitsEnvironmental = () => {
   const images = [
     {
-      original: pic1,
-      thumbnail: pic1,
+      original: pic21,
+      thumbnail: pic21,
     },
     {
-      original: pic2,
-      thumbnail: pic2,
+      original: pic22,
+      thumbnail: pic22,
+    },
+    {
+      original: pic20,
+      thumbnail: pic20,
+    },
+    {
+      original: pic26,
+      thumbnail: pic26,
+    },
+    {
+      original: pic27,
+      thumbnail: pic27,
     },
     {
       original: pic3,
       thumbnail: pic3,
+    },
+    {
+      original: pic23,
+      thumbnail: pic23,
     },
     {
       original: pic4,
@@ -55,30 +72,6 @@ const PortraitsEnvironmental = () => {
       thumbnail: pic5,
     },
     {
-      original: pic6,
-      thumbnail: pic6,
-    },
-    {
-      original: pic7,
-      thumbnail: pic7,
-    },
-    {
-      original: pic8,
-      thumbnail: pic8,
-    },
-    {
-      original: pic9,
-      thumbnail: pic9,
-    },
-    {
-      original: pic10,
-      thumbnail: pic10,
-    },
-    {
-      original: pic11,
-      thumbnail: pic11,
-    },
-    {
       original: pic12,
       thumbnail: pic12,
     },
@@ -87,8 +80,28 @@ const PortraitsEnvironmental = () => {
       thumbnail: pic13,
     },
     {
-      original: pic14,
-      thumbnail: pic14,
+      original: pic1,
+      thumbnail: pic1,
+    },
+    {
+      original: pic18,
+      thumbnail: pic18,
+    },
+    {
+      original: pic17,
+      thumbnail: pic17,
+    },
+    {
+      original: pic11,
+      thumbnail: pic11,
+    },
+    {
+      original: pic19,
+      thumbnail: pic19,
+    },
+    {
+      original: pic32,
+      thumbnail: pic32,
     },
     {
       original: pic15,
@@ -99,48 +112,36 @@ const PortraitsEnvironmental = () => {
       thumbnail: pic16,
     },
     {
-      original: pic17,
-      thumbnail: pic17,
+      original: pic7,
+      thumbnail: pic7,
     },
     {
-      original: pic18,
-      thumbnail: pic18,
-    },
-    {
-      original: pic19,
-      thumbnail: pic19,
-    },
-    {
-      original: pic20,
-      thumbnail: pic20,
-    },
-    {
-      original: pic21,
-      thumbnail: pic21,
-    },
-    {
-      original: pic22,
-      thumbnail: pic22,
-    },
-    {
-      original: pic23,
-      thumbnail: pic23,
-    },
-    {
-      original: pic24,
-      thumbnail: pic24,
+      original: pic10,
+      thumbnail: pic10,
     },
     {
       original: pic25,
       thumbnail: pic25,
     },
     {
-      original: pic26,
-      thumbnail: pic26,
+      original: pic8,
+      thumbnail: pic8,
     },
     {
-      original: pic27,
-      thumbnail: pic27,
+      original: pic6,
+      thumbnail: pic6,
+    },
+    {
+      original: pic9,
+      thumbnail: pic9,
+    },
+    {
+      original: pic14,
+      thumbnail: pic14,
+    },
+    {
+      original: pic24,
+      thumbnail: pic24,
     },
     {
       original: pic28,

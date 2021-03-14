@@ -52,6 +52,14 @@ a.nav-link {
   background-color: rgb(205, 32, 30) !important;
 }
 
+.dropdown-header {
+  color: rgb(205, 32, 30) !important;
+}
+
+.activeWhite.active {
+  color: white !important;
+}
+
 .title-image {
   width: 300px;
   margin-top: 25px;
@@ -101,7 +109,6 @@ a.nav-link {
 }
 
 .gallery-container,
-.gallery-container,
 .contact-container,
 .about-container,
 .gallery-list-container {
@@ -110,4 +117,9 @@ a.nav-link {
 
 .image-gallery-svg {
   height: 60px !important;
+}
+
+.image-gallery .image-gallery-content .image-gallery-image {
+  width: 100% !important;
+  height: calc(100vh - 200px) !important;
 }
