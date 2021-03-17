@@ -1,31 +1,22 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
-import pic1 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_001.jpg";
-import pic2 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_002.jpg";
-import pic3 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_003.jpg";
-import pic4 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_004.jpg";
-import pic5 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_005.jpg";
-import pic6 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_006.jpg";
-import pic7 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_007.jpg";
-import pic8 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_008.jpg";
-import pic9 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_009.jpg";
-import pic10 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_010.jpg";
-import pic11 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_011.jpg";
-import pic12 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_012.jpg";
-import pic13 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_013.jpg";
-import pic14 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_014.jpg";
-import pic15 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_015.jpg";
-import pic16 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_016.jpg";
-import pic17 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_017.jpg";
-import pic18 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_018.jpg";
-import pic19 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_019.jpg";
-import pic20 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_020.jpg";
-import pic21 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_021.jpg";
-import pic22 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_022.jpg";
-import pic23 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_023.jpg";
-import pic24 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_024.jpg";
-import pic25 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_025.jpg";
-import pic26 from "../assets/gallery-photos/photoshop/Photoshop-1-14-21_026.jpg";
+import pic1 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_001.jpg";
+import pic2 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_002.jpg";
+import pic3 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_003.jpg";
+import pic4 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_004.jpg";
+import pic5 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_005.jpg";
+import pic6 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_006.jpg";
+import pic7 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_007.jpg";
+import pic8 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_008.jpg";
+import pic9 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_009.jpg";
+import pic10 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_010.jpg";
+import pic11 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_011.jpg";
+import pic12 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_012.jpg";
+import pic13 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_013.jpg";
+import pic14 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_014.jpg";
+import pic15 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_015.jpg";
+import pic16 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_016.jpg";
+import pic17 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_017.jpg";
 
 const Photoshop = () => {
   const images = [
@@ -96,42 +87,6 @@ const Photoshop = () => {
     {
       original: pic17,
       thumbnail: pic17,
-    },
-    {
-      original: pic18,
-      thumbnail: pic18,
-    },
-    {
-      original: pic19,
-      thumbnail: pic19,
-    },
-    {
-      original: pic20,
-      thumbnail: pic20,
-    },
-    {
-      original: pic21,
-      thumbnail: pic21,
-    },
-    {
-      original: pic22,
-      thumbnail: pic22,
-    },
-    {
-      original: pic23,
-      thumbnail: pic23,
-    },
-    {
-      original: pic24,
-      thumbnail: pic24,
-    },
-    {
-      original: pic25,
-      thumbnail: pic25,
-    },
-    {
-      original: pic26,
-      thumbnail: pic26,
     },
   ];
   return (

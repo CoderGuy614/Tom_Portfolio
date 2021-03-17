@@ -20,50 +20,58 @@ const About = () => {
             Hi, I’m Tom, a Commercial Photographer from Columbus, Ohio, and I
             create images of real people in their business environments for
             advertising, corporate and editorial uses. For three decades, my
-            creative problem-solving skills and ability to work in concert with
-            a team, have led clients to say, I am a great value, worth my weight
-            in a crunch and always welcome on their team. Corporate designers,
-            Communications Directors and Marketing teams value my ability to
-            convey their message in a visually significant and sensitive manor
-            utilizing existing locations and materials. Bringing a project to
-            successful completion on budget requires expertise in lighting,
-            color management, file processing, editing, retouching and the right
-            equipment. Add to that a full understanding of the project from pre
-            to post-production. Photoshop is a joy, from simple retouching to
-            extensive image manipulation and complex compositing, even adding or
-            removing an individual in a group photo.
+            creative problem-solving skills and ability to work with a team have
+            put me in front of some truly incredible people: Corporate
+            Designers, Communications Directors, and whole Marketing teams who
+            have each said that I’m worth my weight, perfect in a crunch, and
+            always welcome on their team. This is because of my ability to
+            convey their message with visual panache and sensitive intuition.
           </Card.Text>
           <hr></hr>
+          <strong>Passion Meets Professionalism</strong>
           <Card.Text className="py-2 about-text">
-            As an Adjunct Professor of Photography, a lecturer and ASMP board
-            member, I mentor students and clients about the value of great
-            images. My education from the University of Wisconsin in painting
-            and The Ohio State University in photography help define my visual
-            language as a storyteller and compelling portraitist. The goal
-            always to visually declutter scenes and evoke the mood of the
-            client’s message with styles tailored to each project. Whether the
-            production takes place in a school, hospital, factory, manufacturing
-            plant, restaurant, assisted living facility, someone’s home or on a
-            farm, I strategically include the environment as an essential
-            character in the visual story.
+            Besides understanding the ins-and-outs of completing a project on
+            time and on budget (through use of the right equipment, professional
+            lighting, color management, file processing and editing), my ability
+            to take a project completely from pre- to post-production is
+            something I’ve refined over the years. I embrace Photoshop with joy,
+            which means that—along with those skills I mentioned—I have the
+            technical understanding to retouch your images from simple
+            retouching to extensive image manipulation and complex compositing,
+            even adding or removing an individual in a group photo. In fact, I
+            hone my digital skills by teaching others the art of photography as
+            an adjunct professor at Columbus State Community College and as an
+            ASMP board member. My own education from the University of
+            Wisconsin, in painting, and the Ohio State University, in
+            photography, help define my visual approach as a storyteller and
+            compelling portraitist.
           </Card.Text>
           <hr></hr>
+          <strong>Location, Language and Lively Conversation</strong>
           <Card.Text className="py-2 about-text">
-            It can be very uncomfortable for people or employees to be in front
-            of a camera, especially when it falls under the category of “duties
-            other”. Most people hate having their picture taken. I get it; being
-            respectful and sensitive to this, I use a lighthearted easy-going
-            manner to build rapport and put subjects at ease. As for executives,
-            I work with tight schedules yet understand the importance and
-            gravity of capturing corporate history. My team and I work
-            efficiently while exercising safety protocols. I love to collaborate
-            in person, though I’m comfortable with tethered capture and
-            live-sharing my screen via zoom for client approval. If you want….
-            Peace of mind – to know the photography will be done right To build
-            a professional relationship that looks out for your best interests
-            To preserve and protect your corporate legacy Images that serve the
-            corporate brand mission …. then I look forward to hearing from and
-            working with you.
+            One hallmark of my visual language is that I use the environment to
+            aid in telling the story my clients want to convey. More than just
+            headshots, including the location and the surroundings inherent to
+            each project—be it a restaurant, retirement home, manufacturing
+            facility, school or farm—brings a mood that is visceral and powerful
+            to every picture I create. I understand how uncomfortable it can be
+            to be in front of a camera—I’ve been there, myself. That’s why I
+            pride myself on my easy manner while shooting—a lighthearted and
+            easy-going rapport—that helps to put subjects at ease. And when
+            working with executives (and the tight schedules they manage) I am
+            efficient and professional in capturing their portraits and
+            preserving corporate history. Plus, whether you want in-person
+            collaboration, or tethered capture via video conferencing for remote
+            approvals, I bring my professional best to every shooting session.
+          </Card.Text>
+          <hr></hr>
+          <strong>I’m Ready When You Are</strong>
+          <Card.Text className="py-2 about-text">
+            So, if you’re looking for peace of mind—to know your photography is
+            being done right; to gain a business relationship with a
+            professional who looks out for your best interest; to preserve and
+            protect your corporate legacy with images that serve the corporate
+            brand mission—then I am ready to get to work.
           </Card.Text>
         </Card.Body>
       </Card>
