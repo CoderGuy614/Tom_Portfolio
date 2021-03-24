@@ -1,9 +1,6 @@
 import { React, useState } from "react";
 import pic1 from "../assets/tom_avatar.jpg";
-import { Image, Card, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { galleries } from "../GalleryData";
-import GalleryList from "./GalleryList";
+import { Image, Card } from "react-bootstrap";
 
 const About = () => {
   const [showWebGalleries, setShowWebGalleries] = useState(false);

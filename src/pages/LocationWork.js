@@ -15,6 +15,7 @@ import pic12 from "../assets/gallery-photos/location-work/Location-Work-012.jpg"
 import pic13 from "../assets/gallery-photos/location-work/Location-Work-013.jpg";
 import pic14 from "../assets/gallery-photos/location-work/Location-Work-014.jpg";
 import pic15 from "../assets/gallery-photos/location-work/Location-Work-015.jpg";
+import pic15b from "../assets/gallery-photos/location-work/Location-Work_015-b.jpg";
 import pic16 from "../assets/gallery-photos/location-work/Location-Work-016.jpg";
 import pic17 from "../assets/gallery-photos/location-work/Location-Work-017.jpg";
 import pic18 from "../assets/gallery-photos/location-work/Location-Work-018.jpg";
@@ -53,6 +54,10 @@ const LocationWork = () => {
     {
       original: pic15,
       thumbnail: pic15,
+    },
+    {
+      original: pic15b,
+      thumbnail: pic15b,
     },
     // {
     //   original: pic4,
