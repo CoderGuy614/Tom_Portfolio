@@ -1,6 +1,7 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
 import pic1 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_001.jpg";
+import pic1a from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_001-1080p.jpg";
 import pic2 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_002.jpg";
 import pic3 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_003.jpg";
 import pic4 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_004.jpg";
@@ -17,12 +18,13 @@ import pic14 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_014-crop
 import pic15 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_015-cropped.jpg";
 import pic16 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_016.jpg";
 import pic17 from "../assets/gallery-photos/photoshop/Photoshop-3-16-21_017.jpg";
+import pic19 from "../assets/gallery-photos/photoshop/Photoshop-OSU-1080p.jpg";
 
 const Photoshop = () => {
   const images = [
     {
-      original: pic1,
-      thumbnail: pic1,
+      original: pic1a,
+      thumbnail: pic1a,
     },
     {
       original: pic2,
@@ -35,6 +37,10 @@ const Photoshop = () => {
     {
       original: pic4,
       thumbnail: pic4,
+    },
+    {
+      original: pic19,
+      thumbnail: pic19,
     },
     {
       original: pic5,

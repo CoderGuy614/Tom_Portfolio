@@ -1,5 +1,6 @@
 {
   "name": "tom_portfolio",
+  "homepage": "http://tomdubanowich.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -80,7 +80,8 @@ a.nav-link {
 }
 
 .home-container,
-.contact-container {
+.contact-container,
+.about-container {
   background-color: rgb(169, 157, 149);
   height: calc(100vh - 200px);
   overflow: auto;
