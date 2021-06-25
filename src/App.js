@@ -11,6 +11,8 @@ import Photoshop from "./pages/Photoshop";
 import PortraitsEnvironmental from "./pages/PortraitsEnvironmental";
 import PortraitsStudio from "./pages/PortraitsStudio";
 import Contact from "./pages/Contact";
+import AdminLogin from "./pages/AdminLogin";
+import AdminPage from "./pages/AdminPage";
 
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
@@ -48,6 +50,8 @@ const App = () => {
         <Route exact path="/portraits-studio" component={PortraitsStudio} />
         <Route exact path="/personal" component={Personal} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/adminLogin" component={AdminLogin} />
+        <Route exact path="/adminPage" component={AdminPage} />
 
         <Route
           exact
